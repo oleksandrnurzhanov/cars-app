@@ -1,0 +1,22 @@
+<div class="form-group">
+  <label for="carName">Car Name</label>
+  <input type="text"
+         class="form-control"
+         id="carName"
+         [(ngModel)]="carName"
+         placeholder="Enter car name">
+</div>
+<div class="form-group">
+  <label for="carModel">Car Model</label>
+  <input type="text"
+         class="form-control"
+         id="carModel"
+         [(ngModel)]="carModel"
+         placeholder="Enter car model">
+</div>
+<button type="button"
+        (click)="onAdd()"
+        class="btn btn-outline-primary">Add Car</button>
+<button type="button"
+        (click)="onLoad()"
+        class="btn btn-outline-warning">Load Cars</button>

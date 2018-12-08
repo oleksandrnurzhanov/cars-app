@@ -1,0 +1,32 @@
+{
+  "cars": [
+    {
+      "name": "BMW",
+      "date": "24.11.18",
+      "model": "X6",
+      "isSold": false,
+      "id": 1
+    },
+    {
+      "name": "Mercedess",
+      "date": "24.11.18",
+      "model": "SLR500",
+      "isSold": true,
+      "id": 2
+    },
+    {
+      "name": "Ferrari",
+      "date": "25.11.18",
+      "model": "AE5000",
+      "isSold": false,
+      "id": 3
+    },
+    {
+      "name": "Audi",
+      "date": "25.11.18",
+      "model": "TT",
+      "isSold": true,
+      "id": 4
+    }
+  ]
+}
